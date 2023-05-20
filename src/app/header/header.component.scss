@@ -1,0 +1,15 @@
+.heading {
+    &--black {
+        color: #3B444F;
+    }
+    
+    &--red {
+        color: #D52E45;
+    }
+}
+
+.btn-primary {
+    border-radius: 0%;
+    background-color: #2ED573;
+    border-color: #2ED573;
+}
