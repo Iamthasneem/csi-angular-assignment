@@ -1,0 +1,10 @@
+.required::after{
+    content:" *";
+    color: red;
+    font-size: 20px;
+}
+
+.btn {
+    float: right;
+    margin: 24px 0 0 12px;
+}
