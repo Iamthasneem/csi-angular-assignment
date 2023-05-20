@@ -1,15 +1,44 @@
 .heading {
     &--black {
         color: #3B444F;
+        text-transform: uppercase;
+        font-size: 26px;
+        opacity: 1;
     }
     
     &--red {
         color: #D52E45;
+        text-transform: uppercase;
+        font-size: 26px;
+        opacity: 1;
     }
 }
 
+.navbar-brand {
+    align-items: center;
+
+    &--logo {
+        width: 145px;
+        height: 37px;
+    }
+}
+
+.search-bar-default {
+    width: 338px;
+    height: 35px;
+    color: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    opacity: 1;
+}
+
 .btn-primary {
-    border-radius: 0%;
+    width: 113px;
+    height: 43px;
+    color: #FFFFFF;
     background-color: #2ED573;
     border-color: #2ED573;
+    border-radius: 4px;
+    margin-top: 24px;
+    opacity: 1;
 }

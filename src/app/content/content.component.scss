@@ -1,10 +1,69 @@
-.required::after{
-    content:" *";
+.content{
+    padding: 24px;
+}
+
+.required::after {
+    content: " *";
     color: red;
     font-size: 20px;
 }
 
-.btn {
+.navbar-brand {
+    align-items: center;
+
+    &--logo {
+        width: 145px;
+        height: 37px;
+    }
+}
+
+.search-bar-default {
+    width: 338px;
+    height: 35px;
+    color: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.head-genneral {
+    font-size: 22px;
+    color: #3B444F;
+    opacity: 1;
+}
+
+.fieldset-spacing{
+    margin-top: 40px;
+}
+
+.form-spacing{
+    margin: 0 24px 24px 24px;
+}
+
+.label{
+    top: 8px;
+}
+
+.btn-primary {
     float: right;
     margin: 24px 0 0 12px;
+    background: #354D72;
+    color: #FFFFFF;
+    width: 67px;
+    height: 43px;
+    border-radius: 4px;
+    opacity: 1;
+    border-color: #354D72;
+}
+
+.btn-light {
+    float: right;
+    margin: 24px 0 0 12px;
+    background: #FFFFFF;
+    color: #547CA2;
+    width: 67px;
+    height: 43px;
+    border-radius: 4px;
+    opacity: 1;
+    border-color: #547CA2;
 }

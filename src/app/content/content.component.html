@@ -2,39 +2,41 @@
 
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand">Navbar</a>
+    <a class="navbar-brand">
+      <img class="navbar-brand--logo" src="..//../assets/logo-colored.webp" alt="csi-logo">
+    </a>
     <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <input class="form-control me-2 search-bar-default" type="search" placeholder="Search" aria-label="Search">
     </form>
   </div>
 </nav>
 
-<form class="container-fluid">
+<form class="container-fluid justify-content-center align-items-center content">
 
-  <h4>General Information</h4>
+  <h4 class="head-genneral">General Information</h4>
 
-  <fieldset class="border p-2">
+  <fieldset class="border p-2 fieldset-spacing">
      <legend  class="float-none w-auto p-2"> <h5>Biographic Information</h5> </legend>
 
-     <form>
+     <form class="form-spacing">
       
       <div class="row">
         <div class="col-md-3 mb-3">
-          <label class="required"> First Name </label>
-          <input type="text" class="form-control" placeholder="First name">
+          <label class="required mb-1"> First Name </label>
+          <input type="text" class="form-control" placeholder="Placeholder">
         </div>
         <div class="col-md-3 mb-3">
-          <label class="required"> Last Name </label>
-          <input type="text" class="form-control" placeholder="Last name">
+          <label class="required mb-1"> Last Name </label>
+          <input type="text" class="form-control" placeholder="Placeholder">
         </div>
       </div>
 
       <div class="row">
         <div class='col-md-3 mb-3'>
-          <label for="inputState">Birthday</label>
+          <label class="mb-1" for="inputState">Birthday</label>
           <div class="form-group">
              <div class='input-group date' id='datetimepicker5'>
-                <input type='text' class="form-control" />
+                <input type='text' class="form-control" placeholder="DD/MM/YYYY"/>
                 <span class="input-group-addon">
                 <span class="glyphicon glyphicon-calendar"></span>
                 </span>
@@ -43,25 +45,25 @@
        </div>
 
        <div class="form-group col-md-3 mb-3">
-        <label for="inputState">Gender</label>
+        <label class="mb-1" for="inputState">Gender</label>
         <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
+          <option selected>Select</option>
           <option>...</option>
         </select>
       </div>
 
       <div class="form-group col-md-3 mb-3">
-        <label for="inputState">Civil Status</label>
+        <label class="mb-1" for="inputState">Civil Status</label>
         <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
+          <option selected>Select</option>
           <option>...</option>
         </select>
       </div>
 
       <div class="form-group col-md-3 mb-3">
-        <label for="inputState">Nationality</label>
+        <label class="mb-1" for="inputState">Nationality</label>
         <select id="inputState" class="form-control">
-          <option selected>Choose...</option>
+          <option selected>Select</option>
           <option>...</option>
         </select>
       </div>
@@ -73,55 +75,42 @@
     
   </fieldset>
 
-  <fieldset class="border p-2">
+  <fieldset class="border p-2 fieldset-spacing">
     <legend  class="float-none w-auto p-2"> <h5>Contact Information</h5> </legend>
 
-    <form>
+    <form class="form-spacing">
      
      <div class="row">
        <div class="col-md-3 mb-3">
-         <label>Phone Number</label>
-         <input type="text" class="form-control" placeholder="First name">
+         <label class="mb-1">Phone Number</label>
+         <input type="text" class="form-control" placeholder="Placeholder">
        </div>
        <div class="col-md-3 mb-3">
-        <label>Email Address</label>
-         <input type="text" class="form-control" placeholder="Last name">
+        <label class="mb-1">Email Address</label>
+         <input type="text" class="form-control" placeholder="Placeholder">
        </div>
      </div>
 
      <div class="row">
        <div class='col-md-3 mb-3'>
-         <label for="inputState">Address</label>
-         <div class="form-group">
-            <div class='input-group date' id='datetimepicker5'>
-               <input type='text' class="form-control" />
-               <span class="input-group-addon">
-               <span class="glyphicon glyphicon-calendar"></span>
-               </span>
-            </div>
-         </div>
+        <label class="mb-1">Address</label>
+         <input type="text" class="form-control" placeholder="Placeholder">
       </div>
 
-      <div class="form-group col-md-3 mb-3">
-       <label for="inputState">City</label>
-       <select id="inputState" class="form-control">
-         <option selected>Choose...</option>
-         <option>...</option>
-       </select>
-     </div>
+      <div class='col-md-3 mb-3'>
+        <label class="mb-1">City</label>
+         <input type="text" class="form-control" placeholder="Placeholder">
+      </div>
+
+      <div class='col-md-3 mb-3'>
+        <label class="mb-1">Zip Code</label>
+         <input type="text" class="form-control" placeholder="Placeholder">
+      </div>
 
      <div class="form-group col-md-3 mb-3">
-       <label for="inputState">Zip Code</label>
-       <select id="inputState" class="form-control">
-         <option selected>Choose...</option>
-         <option>...</option>
-       </select>
-     </div>
-
-     <div class="form-group col-md-3 mb-3">
-      <label for="inputState">Country</label>
+      <label class="mb-1" for="inputState">Country</label>
       <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
+        <option class="text-color" selected>Select</option>
         <option>...</option>
       </select>
     </div>
