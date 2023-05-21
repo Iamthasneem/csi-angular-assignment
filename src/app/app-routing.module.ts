@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 
 const routes: Routes = [
+  { path: '', component: HeaderComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'content', component: ContentComponent }
 ];
