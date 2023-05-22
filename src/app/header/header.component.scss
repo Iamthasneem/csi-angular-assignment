@@ -5,7 +5,7 @@
 }
 
 .heading {
-    &--black {
+    &__black {
         text-align: center;
         color: #3B444F;
         text-transform: uppercase;
@@ -13,7 +13,7 @@
         opacity: 1;
     }
 
-    &--red {
+    &__red {
         text-align: center;
         color: #D52E45;
         text-transform: uppercase;
